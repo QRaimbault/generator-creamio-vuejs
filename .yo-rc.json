@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Quentin Raimbault",
+      "authorEmail": "quentin.raimbault@hetic.net",
+      "authorUrl": "https://github.com/QRaimbault"
+    }
+  }
+}
