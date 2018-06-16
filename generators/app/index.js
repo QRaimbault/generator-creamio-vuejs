@@ -3,16 +3,9 @@ const Generator = require('yeoman-generator');
 const chalk = require('chalk');
 
 module.exports = class extends Generator {
-
-  constructor(args, opts) {
-    // Calling the super constructor is important so our generator is correctly set up
-    super(args, opts);
-
-    this.views = this.fs.
-  }
   prompting() {
     this.log(`\nWelcome to the ${chalk.red('CreamIO Vue.js')} generator !\n`);
-    
+
     const prompts = [
       {
         type: 'list',
@@ -33,18 +26,22 @@ module.exports = class extends Generator {
         message: 'Should we create a SCSS file for this view ?',
         default: true,
         when: hash => hash.objectType === 'View'
+      }
+      /* COMPONENT PART
+      {
+        type: 'confirm',
+        name: 'directoryPath',
+        message: 'Should we create a SCSS file for this component ?',
+        default: true,
+        when: hash => hash.objectType === 'Component'
       },
-      // COMPONENT PART
       {
         type: 'confirm',
         name: 'createStyle',
         message: 'Should we create a SCSS file for this component ?',
         default: true,
         when: hash => hash.objectType === 'Component'
-      },
-      {
-        type:
-      }
+      }*/
     ];
 
     return this.prompt(prompts).then(props => {
