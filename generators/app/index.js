@@ -4,7 +4,9 @@ const chalk = require('chalk');
 
 module.exports = class extends Generator {
   prompting() {
-    this.log(`\nWelcome to the ${chalk.red('CreamIO Vue.js')} generator !\n`);
+    this.log(
+      `\nWelcome to the ${chalk.red('Quentin Raimbault Starter Vue.js')} generator !\n`
+    );
 
     const prompts = [
       {

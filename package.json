@@ -1,7 +1,7 @@
 {
-  "name": "generator-creamio-vuejs",
+  "name": "generator-qraimbault-vuejs",
   "version": "0.0.1",
-  "description": "A simple vue component/style... etc generator for CreamIO projects",
+  "description": "A simple vue component/style... etc generator for projects using my starter.",
   "homepage": "https://github.com/Cream-IO/vue-js-starter-scss",
   "author": {
     "name": "Quentin Raimbault",
@@ -82,6 +82,6 @@
       "prettier"
     ]
   },
-  "repository": "Cream-IO/generator-creamio-vuejs",
+  "repository": "Cream-IO/generator-qraimbault-vuejs",
   "license": "MIT"
 }
