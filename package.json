@@ -1,6 +1,6 @@
 {
   "name": "generator-creamio-vuejs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple vue component/style... etc generator for CreamIO projects",
   "homepage": "https://github.com/Cream-IO/vue-js-starter-scss",
   "author": {
